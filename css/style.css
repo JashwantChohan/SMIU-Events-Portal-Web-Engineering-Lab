@@ -1,0 +1,151 @@
+/* Colour Theme */
+:root {
+    --primary-color: #0b3d91;
+    --secondary-color: #f4a300;
+    --dark-color: #1c1c1c;
+    --light-color: #f5f7fa;
+    --text-color: #333333;
+}
+
+/* General */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    background-color: var(--light-color);
+}
+
+/* Navbar */
+.site-navbar {
+    background-color: var(--primary-color);
+}
+
+.site-navbar .navbar-brand {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.site-navbar .nav-link.active {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+/* Custom Button */
+.btn-custom {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-custom:hover {
+    background-color: #d98f00;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, var(--primary-color), #3a7bd5);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Section Spacing */
+.section-padding {
+    padding: 60px 0;
+}
+
+.section-title {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Carousel */
+.carousel-item img {
+    height: 450px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Event Cards */
+.event-card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.event-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Why Join Section */
+.feature-box {
+    background-color: var(--light-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+}
+
+.feature-icon {
+    font-size: 50px;
+    color: var(--primary-color);
+}
+
+/* Footer */
+.site-footer {
+    background-color: var(--dark-color);
+    color: #cccccc;
+    padding: 40px 0 20px;
+}
+
+.site-footer h5 {
+    color: var(--secondary-color);
+}
+
+.site-footer a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: white;
+}
+
+.social-links a {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444444;
+    margin-top: 20px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Phone Screen */
+@media (max-width: 576px) {
+    .hero {
+        padding: 60px 0;
+    }
+
+    .carousel-item img {
+        height: 220px;
+    }
+}
