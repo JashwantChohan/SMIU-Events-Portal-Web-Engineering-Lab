@@ -75,6 +75,37 @@ body {
     border-radius: 10px;
 }
 
+/* Event Cards */
+.event-card {
+    border: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.event-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.event-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Why Join Section */
+.feature-box {
+    background-color: var(--light-color);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+}
+
+.feature-icon {
+    font-size: 50px;
+    color: var(--primary-color);
+}
+
 /* Phone Screen */
 @media (max-width: 576px) {
     .hero {
