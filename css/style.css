@@ -28,3 +28,33 @@ body {
     color: var(--secondary-color);
     font-weight: bold;
 }
+
+/* Custom Button */
+.btn-custom {
+    background-color: var(--secondary-color);
+    color: var(--dark-color);
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-custom:hover {
+    background-color: #d98f00;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, var(--primary-color), #3a7bd5);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/* Phone Screen */
+@media (max-width: 576px) {
+    .hero {
+        padding: 60px 0;
+    }
+}
