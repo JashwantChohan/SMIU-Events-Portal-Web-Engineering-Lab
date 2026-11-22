@@ -106,6 +106,39 @@ body {
     color: var(--primary-color);
 }
 
+/* Footer */
+.site-footer {
+    background-color: var(--dark-color);
+    color: #cccccc;
+    padding: 40px 0 20px;
+}
+
+.site-footer h5 {
+    color: var(--secondary-color);
+}
+
+.site-footer a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    color: white;
+}
+
+.social-links a {
+    font-size: 22px;
+    margin-right: 10px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444444;
+    margin-top: 20px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
 /* Phone Screen */
 @media (max-width: 576px) {
     .hero {
