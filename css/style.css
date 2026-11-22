@@ -1,0 +1,30 @@
+/* Colour Theme */
+:root {
+    --primary-color: #0b3d91;
+    --secondary-color: #f4a300;
+    --dark-color: #1c1c1c;
+    --light-color: #f5f7fa;
+    --text-color: #333333;
+}
+
+/* General */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+    background-color: var(--light-color);
+}
+
+/* Navbar */
+.site-navbar {
+    background-color: var(--primary-color);
+}
+
+.site-navbar .navbar-brand {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+.site-navbar .nav-link.active {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
